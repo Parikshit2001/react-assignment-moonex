@@ -1,4 +1,5 @@
 import About from "@/components/About/About";
+import FAQ from "@/components/FAQ/FAQ";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
@@ -9,6 +10,7 @@ function page() {
       <Navbar />
       <Hero />
       <About />
+      <FAQ />
     </div>
   );
 }
