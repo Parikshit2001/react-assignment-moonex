@@ -1,10 +1,10 @@
+import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
 
 function page() {
   return (
-    <div className="bg-[#071624] h-screen text-white">
-      <p className="font-fira">HI?</p>
-      <p className="font-raleway">HI?</p>
+    <div className="bg-[#071624] min-h-screen h-full text-white relative w-full lg:px-[100px] md:px-[50px] px-[20px] pt-[47px]">
+      <Navbar />
     </div>
   );
 }

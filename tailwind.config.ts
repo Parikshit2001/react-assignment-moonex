@@ -12,6 +12,12 @@ const config: Config = {
         raleway: ["var(--font-raleway)"],
         fira: ["var(--font-fira)"],
       },
+      screens: {
+        xxsmall: "480px",
+        xsmall: "540px",
+        medium: "720px",
+        large: "14400px",
+      },
     },
   },
   plugins: [],
