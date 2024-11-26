@@ -33,7 +33,7 @@ function Hero() {
         />
         <Sun className="absolute right-[8vw] top-[10vh]" />
         <YellowTinge className="absolute -right-[5vw] top-[20vh]" />
-        <YellowTinge className="absolute -left-[20vh] -top-[30vh] rotate-45 h-[80vh] w-[80vh]" />
+        <YellowTinge className="absolute -left-[20vh] -top-[30vh] rotate-45 h-[80vh] w-[80vh] z-20" />
       </div>
       <div className="font-fira">
         <div className="text-6xl font-extrabold">

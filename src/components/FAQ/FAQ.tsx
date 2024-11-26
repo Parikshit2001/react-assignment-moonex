@@ -4,7 +4,7 @@ import YellowTinge from "../SolarSystem/YellowTinge";
 
 function FAQ() {
   return (
-    <div className="pb-20 lg:px-[50px] px-[20px]] overflow-x-hidden">
+    <div className="pb-20 lg:px-[50px] px-[20px] overflow-x-hidden">
       <div className="hidden md:block absolute w-full">
         <YellowTinge className="absolute -right-[30vw] -translate-y-[20vh]" />
         <YellowTinge className="absolute -left-[30vw] translate-y-[20vh]" />
