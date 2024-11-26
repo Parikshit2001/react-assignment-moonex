@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#051422] py-14 pb-10 flex justify-between -mx-[100px] px-[100px]">
+    <div className="bg-[#051422] py-14 pb-10 flex justify-between lg:px-[100px] md:px-[50px] px-[20px]">
       <div>
         <Image
           src={"/images/logo_2.png"}
