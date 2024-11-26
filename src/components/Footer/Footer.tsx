@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#051422] py-14 pb-10 flex justify-between lg:px-[100px] md:px-[50px] px-[20px]">
+    <div className="bg-[#051422] py-14 pb-10 flex justify-between lg:px-[50px] px-[20px]">
       <div>
         <Image
           src={"/images/logo_2.png"}
@@ -13,7 +13,7 @@ function Footer() {
           alt="Moonex Logo"
         />
       </div>
-      <div className="flex font-bold gap-16">
+      <div className="flex flex-col md:flex-row font-bold gap-2 md:gap-16">
         <button>Roadmap</button>
         <button>About Us</button>
         <button>FAQs</button>

@@ -2,7 +2,7 @@ import React from "react";
 
 function FeatureCard() {
   return (
-    <div className="bg-white bg-opacity-[3%] rounded-lg px-8 py-8 border border-gray-800 h-[33vh]">
+    <div className="bg-white bg-opacity-[3%] rounded-lg px-8 py-8 border border-gray-800 ">
       <div className="mb-8 flex justify-center items-center bg-white bg-opacity-[5%] rounded-full size-20 text-3xl font-semibold">
         $
       </div>

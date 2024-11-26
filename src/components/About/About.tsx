@@ -4,7 +4,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="py-20 lg:px-[100px] md:px-[50px] px-[20px]">
+    <div className="py-20 lg:px-[50px] px-[20px]">
       <Table />
       <Features />
     </div>
